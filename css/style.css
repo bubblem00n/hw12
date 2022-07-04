@@ -249,10 +249,11 @@ body {
 
 .quote {
   width: 800px;
-  height: 152px;
   margin: 50px auto;
   border-right: 3px solid #456268;
   border-left: 3px solid #456268;
+  position: relative;
+  padding: 30px;
 
   margin-bottom: 50px;
 }
@@ -263,7 +264,9 @@ body {
 .quote:after {
   content: "";
   display: block;
-  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+  right: -2px;
   float: right;
 
   width: 80px;
@@ -276,6 +279,9 @@ body {
   content: "";
   display: block;
   margin-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: -2px;
 
   width: 80px;
   height: 3px;
@@ -287,7 +293,7 @@ body {
 
 .people {
   max-width: 100%;
-  margin-top: 40px;
+  margin-top: 150px;
 }
 
 .people__container {
@@ -298,7 +304,7 @@ body {
 }
 
 .people__heading {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   margin-top: 40px;
 }
 
@@ -311,8 +317,8 @@ body {
   text-align: center;
   width: 800px;
   height: 256px;
-  margin-left: 20px;
-  margin-bottom: 40px;
+  margin-left: 45px;
+  margin-bottom: 45px;
   padding: 20px;
 
   background-color: #d0e8f2;
