@@ -328,12 +328,9 @@ body {
   transition: all 0.2s;
 }
 
-.people__box:hover .people__title {
-  transform: rotate(0deg);
-}
-
 .people__img {
   padding-left: 25px;
+  margin-left: 25px;
   width: 256px;
   height: 256px;
 }
